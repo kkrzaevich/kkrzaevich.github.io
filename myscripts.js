@@ -25,6 +25,7 @@ function EditButton(elem_id) {
     let parent_node = document.getElementById(elem_id).parentNode;
     output.removeAttribute('readonly');
     parent_node.children[3].style.display = "none";
+    parent_node.children[4].style.display = "block";
 }
 
 function SaveButton(elem_id) {
